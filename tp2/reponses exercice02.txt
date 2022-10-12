@@ -1,0 +1,13 @@
+Item1 : On passe y à 1 et on cast f (int)f
+Item2 : la chaine affichée est 2=11
+Item3 : Il affiche e=-116. "byte" est sur 1 octet (8bits) et va de -127 à 127.
+Item4 : la valeur affichée est 36.600000000000
+		Il faut caster avec "float" pour afficher 36.9
+Item5 : Pour afficher aléatoirement 5 entiers entre 1 à 10 :
+		for (i=1;i<6;i++) {
+		system.out.println("résultat !" + a);
+		}
+		
+		Pour afficher la racine carrée de a :
+		system.out.println ("racine carreé de a : " + Math.sqrt(a));
+		

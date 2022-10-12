@@ -1,0 +1,37 @@
+package darman.part2;
+
+import java.util.Scanner;
+
+public class Exo2_04 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scanner = new Scanner(System.in);
+		// Affiche "Quel est votre prénom"
+		System.out.println("Quel est votre prénom ? : ");
+
+		// Lit l'entier écrit par l'utilisateur et l'affecte
+		// à la variable nombre du programme
+		String prenom = scanner.nextLine();
+
+		// Affiche
+		System.out.println("Bonjour, " + prenom);
+
+	}
+}
+
+//
+//Variables nb, pht, ttva, pttc en Numérique
+//Début
+//Ecrire "Entrez le prix hors taxes :"
+//Lire pht
+//Ecrire "Entrez le nombre d’articles :"
+//Lire nb
+//Ecrire "Entrez le taux de TVA :"
+//Lire ttva
+//pttc ← nb * pht * (1 + ttva)
+//Ecrire "Le prix toutes taxes est : ", pttc
+//Fin
+
+// on pourrait squeezer une variable et une ligne en écrivant directement : 
+//Ecrire "Le prix toutes taxes est : ", nb * pht * (1 + ttva)

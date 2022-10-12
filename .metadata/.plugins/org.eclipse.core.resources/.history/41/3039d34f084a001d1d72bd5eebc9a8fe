@@ -1,0 +1,21 @@
+package darman.part2;
+
+import java.util.Scanner;
+
+public class Exo2_03 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scanner = new Scanner(System.in);
+		// Affiche "Ecrire un nombre: "
+		System.out.println("Ecrire un nombre: ");
+
+		// Lit l'entier écrit par l'utilisateur et l'affecte
+		// à la variable nombre du programme
+		int nombre = scanner.nextInt();
+		double nombre2 = Math.sqrt(nombre);
+		// Affiche le nombre saisit par l'utilisateur
+		System.out.println("Le carré de " + nombre + " est " + nombre2);
+
+	}
+	}

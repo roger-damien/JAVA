@@ -1,0 +1,27 @@
+package darman.part3;
+
+import java.util.Scanner;
+
+public class Exo3_03 {
+
+	String nom1, nom2, nom3;
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scanner = new Scanner(System.in);
+		// Affiche "Ecrire un nombre: "
+		System.out.println("Ecrire un premier nom : ");
+		nom1 = scanner.nextInt();
+		System.out.println("Ecrire un second nom : ");
+		nom2 = scanner.nextInt();
+		System.out.println("Ecrire un troisieme nom : ");
+		nom3 = scanner.nextInt();
+
+		if (a > 0 && b > 0) {
+			System.out.println("Leur produit est positif ");
+		} else {
+			System.out.println("Leur produit est négatif ");
+		}
+	}
+
+}

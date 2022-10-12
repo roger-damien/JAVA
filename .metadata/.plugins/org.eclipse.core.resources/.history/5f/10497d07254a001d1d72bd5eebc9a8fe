@@ -1,0 +1,46 @@
+package darman.part3;
+
+import java.util.Scanner;
+
+public class Exo3_03 {
+
+	String nom1, nom2, nom3;
+	char premierCaractereNom1, premierCaractereNom2, premierCaractereNom3;
+
+	public static void main(String[] args) {
+
+		String nom1, nom2, nom3;
+		// TODO Auto-generated method stub
+		Scanner scanner = new Scanner(System.in);
+		// Affiche "Ecrire un nomb2re: "
+		System.out.println("Ecrire un premier nom : ");
+		nom1 = scanner.nextLine();
+		System.out.println("Ecrire un second nom : ");
+		nom2 = scanner.nextLine();
+		System.out.println("Ecrire un troisieme nom : ");
+		nom3 = scanner.nextLine();
+
+		int compare1 = nom1.compareToIgnoreCase(nom2);
+		int compare2 = nom2.compareToIgnoreCase(nom3);
+	// int compare3 = nom1.compareToIgnoreCase(nom3);
+
+		if (compare1 < compare2) {
+
+			System.out.println("Ces noms sont classés alphabétiquement ");
+		} else {
+			System.out.println("Ces noms ne sont pas classés ");
+		}
+
+	}
+}
+
+// Variables a, b, c en Caractère
+// Début
+// Ecrire "Entrez successivement trois noms : "
+// Lire a, b, c
+// Si a < b ET b < c Alors
+// Ecrire "Ces noms sont classés alphabétiquement"
+// Sinon
+// Ecrire "Ces noms ne sont pas classés"
+// Finsi
+// Fin
