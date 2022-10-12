@@ -7,18 +7,13 @@ public class Exo4_01 {
 
 		int toto = 1;
 		int tutu = 2;
-//		String tata = "OK";
-		String tata = "OIK";
-
-		if (!(tutu > (toto + 4)) & tata == "OK") {
-			tutu += 1;
-			System.out.println("tutu += 1");
-		} else {
-			tutu -= 1;
-			System.out.println("tutu -= 1");
-		}
+		String tata = "OK";
+		
+		
+		if (!(tutu > (toto + 4)) & tata != "OK" ) {
+			System.out.println("ok");
 	}
-
+	}
 }
 //Si Tutu <= Toto + 4 ET Tata <> "OK" Alors
 //Tutu ← Tutu - 1

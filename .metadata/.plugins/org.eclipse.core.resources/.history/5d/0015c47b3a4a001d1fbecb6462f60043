@@ -16,9 +16,9 @@ public class Exo4_02 {
 		int minutes = scanner.nextInt();
 
 		if (minutes + 1 >= 60) {
-			System.out.println("Dans une minute il sera " + (heures + 1) + " heure(s)");
+			System.out.println("Dans une minute, il sera " + (heures + 1) + " heure(s)");
 		} else {
-			System.out.println("Dans une minute il sera " + heures + " heure(s) " + (minutes + 1) + "minute(s)");
+			System.out.println("Dans une minute, il sera " + heures + " heure(s) " + (minutes + 1) + "minute(s)");
 		}
 
 	}

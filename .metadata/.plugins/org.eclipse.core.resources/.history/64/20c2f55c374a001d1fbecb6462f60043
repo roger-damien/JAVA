@@ -7,8 +7,7 @@ public class Exo4_01 {
 
 		int toto = 1;
 		int tutu = 2;
-//		String tata = "OK";
-		String tata = "OIK";
+		String tata = "OK";
 
 		if (!(tutu > (toto + 4)) & tata == "OK") {
 			tutu += 1;

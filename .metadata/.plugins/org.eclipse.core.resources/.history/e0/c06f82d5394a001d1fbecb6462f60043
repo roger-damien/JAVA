@@ -6,21 +6,23 @@ public class Exo4_02 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-
+	
+			
 		Scanner scanner = new Scanner(System.in);
-
+		
 		System.out.println("Entrez les heures : ");
 		int heures = scanner.nextInt();
-
+		
 		System.out.println("Entrez les minutes : ");
 		int minutes = scanner.nextInt();
-
-		if (minutes + 1 >= 60) {
-			System.out.println("Dans une minute il sera " + (heures + 1) + " heure(s)");
-		} else {
-			System.out.println("Dans une minute il sera " + heures + " heure(s) " + (minutes + 1) + "minute(s)");
-		}
-
+		
+		if(minutes+1 >= 60){
+            System.out.println("Dans une minute, il sera " + (heures+1) + " heure(s)");
+        } else {
+            System.out.println("Dans une minute, il sera " + heures + " heure(s) " + (minutes+1));
+        }
+		
+		
 	}
 
 }
