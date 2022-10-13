@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename method &apos;com.openclassrooms.HelloWorld.ajouter(...)&apos; to &apos;sommeNombres&apos;&#x0D;&#x0A;- Original project: &apos;HelloWorls&apos;&#x0D;&#x0A;- Original element: &apos;com.openclassrooms.HelloWorld.ajouter(...)&apos;&#x0D;&#x0A;- Renamed element: &apos;com.openclassrooms.HelloWorld.sommeNombres(...)&apos;&#x0D;&#x0A;- Update references to refactored element" delegate="false" deprecate="false" description="Rename method &apos;ajouter&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.method" input="/src&lt;com.openclassrooms{HelloWorld.java[HelloWorld~ajouter~I~I" name="sommeNombres" references="true" stamp="1665303982226" version="1.0"/>
+</session>
