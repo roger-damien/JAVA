@@ -1,6 +1,6 @@
-package darman.part4;
+package darman.part6;
 
-public class Exo4_08 {
+public class Exo6_06 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

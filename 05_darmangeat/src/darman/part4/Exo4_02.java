@@ -8,19 +8,21 @@ public class Exo4_02 {
 		// TODO Auto-generated method stub
 
 		Scanner scanner = new Scanner(System.in);
-
 		System.out.println("Entrez les heures : ");
 		int heures = scanner.nextInt();
-
 		System.out.println("Entrez les minutes : ");
 		int minutes = scanner.nextInt();
 
 		if (minutes + 1 >= 60) {
-			System.out.println("Dans une minute il sera " + (heures + 1) + " heure(s)");
+			if (heures >= 23) {
+				String minuit = "00";
+				System.out.println("Dans une minute il sera " + (minuit) + " heure(s)");
+			} else {
+				System.out.println("Dans une minute il sera " + (heures + 1) + " heure(s)");
+			}
 		} else {
 			System.out.println("Dans une minute il sera " + heures + " heure(s) " + (minutes + 1) + "minute(s)");
 		}
-
 	}
 
 }
