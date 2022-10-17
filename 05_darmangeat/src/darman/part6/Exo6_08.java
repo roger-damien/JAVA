@@ -1,9 +1,17 @@
 package darman.part6;
 
+import java.util.Scanner;
+
 public class Exo6_08 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		Scanner scanner = new Scanner(System.in);
+		int Nb, Nbpos, Nbneg;
+		//int [] t = new int [];
+		
+		System.out.println();
+	
+		
 
 	}
 
