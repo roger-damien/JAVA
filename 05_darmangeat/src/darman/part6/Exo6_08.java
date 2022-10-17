@@ -1,6 +1,6 @@
 package darman.part6;
 
-import java.util.Scanner;
+import java.util.*;
 
 public class Exo6_08 {
 
@@ -11,6 +11,7 @@ public class Exo6_08 {
 		
 		System.out.println();
 	
+		// test
 		
 
 	}
