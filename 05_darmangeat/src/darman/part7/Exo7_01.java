@@ -1,34 +1,45 @@
 package darman.part7;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Exo7_01 {
 
+	static Scanner scanner = new Scanner(System.in);
+
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		Scanner scanner = new Scanner(System.in);
+
 		System.out.println("Entrez le nombre de valeurs :");
 		int Nb = scanner.nextInt();
-		int [] t = new int [Nb];
-		for (int i=0; i <= Nb; i++) {
-			System.out.println("Entrez le nombre n° " + i);
-			t[i] = scanner.nextInt();
-			boolean Flag = true;
-			
-			for (i=1; i<Nb-1;i++) {
-				if (! (T[i] == (T[i]-1 +1)) ) {
-					Flag = false;
-				}
-				
-			}
-		}
-		
 
+		int[] tab = new int[Nb];
+		for (int i = 0; i <= tab.length - 1; i++) {
+			tab[i] = scanner.nextInt();
+			scanner.nextLine();
+		}
+
+		System.out.println(Arrays.toString(tab));
+
+		int tab1 = tab[0];
+		boolean Flag = true;
+
+		for (int i = 0; i <= tab.length - 1; i++) {
+
+			if (tab1 != tab[i]) {
+				Flag = false;
+				break;
+			}
+			tab1++;
+		}
+		if (Flag) {
+			System.out.println("Les nombres sont consécutifs");
+		} else {
+			System.out.println("Les nombres ne sont pas consécutifs");
+		}
 	}
 
 }
 
-//
 //Variables Nb, i en Entier
 //Variable Flag en Booleen
 //Tableau T[] en Entier
