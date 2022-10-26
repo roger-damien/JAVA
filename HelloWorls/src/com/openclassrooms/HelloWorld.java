@@ -9,9 +9,17 @@ public class HelloWorld {
 		}
 
 		System.out.println("C'est la fin !");
+		
+		var z = 1;
+		var p = "testvar2";
+		System.out.println(z + p);
 	}
 
 	public int sommeNombres(int num1, int num2) {
 		return num1 + num2;
+		
+		
+		
 	}
+	
 }

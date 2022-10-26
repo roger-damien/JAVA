@@ -1,0 +1,5 @@
+item1 :
+réponse : short est compris entre - 32 768 et 32 767 
+
+item3 :
+float fonctionne avec 0 et 2  main lève un exception java.util.InputMismatchException avec 10.5.
